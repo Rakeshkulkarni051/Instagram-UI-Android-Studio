@@ -13,10 +13,13 @@
         android:theme="@style/Theme.InstaUI"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".notificcations"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".splashscr"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

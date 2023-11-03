@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splashscr">
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView28"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="181dp"
+        android:fontFamily="@font/libre_baskerville"
+        android:text="from"
+        android:textColor="#5E121111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="125dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Rakesh Kulkarni" />
+
+
+</RelativeLayout>
